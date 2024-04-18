@@ -1,0 +1,35 @@
+<Root ref="Splash" type="RC">
+<Folder ref="New Group">
+<Scenario ref="Backoffice">
+<TestCase exeType="Executable" ref="Allocation criteria creation"/>
+<TestCase exeType="Executable" ref="AllocationIDPlusImportAllocation"/>
+<TestCase exeType="Executable" ref="LoginBO"/>
+<TestCase exeType="Executable" ref="Logout_BO"/>
+<TestCase exeType="Executable" ref="Multithreadoption"/>
+<TestCase exeType="Executable" ref="Solr Indexing"/>
+<TestCase exeType="Executable" ref="sync stage to online"/>
+<TestCase exeType="Executable" ref="UTL_GSKD_Backoffice_ChangeProductAvailability"/>
+<TestCase exeType="Executable" ref="UTL_GSKD_Backoffice_Login"/>
+<TestCase exeType="Executable" ref="UTL_GSKD_Backoffice_Logout"/>
+<TestCase exeType="Executable" ref="UTL_GSKD_Backoffice_SSO_Login"/>
+<TestCase exeType="Executable" ref="UTL_GSKD_Import Allocation"/>
+<TestCase exeType="Executable" ref="UTL_GSKD_Order upload for allocation"/>
+<TestCase exeType="Executable" ref="UTL_GSKD_Reservation Order"/>
+<TestCase exeType="Executable" ref="UTL_GSKD_SearchGskDeliverY"/>
+<TestCase exeType="Executable" ref="UTL_GSKD_Searchproduct"/>
+</Scenario>
+<Scenario ref="GSKD_Splash">
+<TestCase exeType="Executable" ref="NewTestCase"/>
+<TestCase exeType="Executable" ref="NewTestCase0"/>
+<TestCase exeType="Executable" ref="ResVal_Login"/>
+<TestCase exeType="Executable" ref="UTL_GSKD_Login"/>
+<TestCase exeType="Executable" ref="UTL_GSKD_Logout"/>
+<TestCase exeType="Executable" ref="UTL_Order Review_Page"/>
+<TestCase exeType="Executable" ref="UTL_OrderCompleted_Page"/>
+<TestCase exeType="Executable" ref="UTL_OrderHistory"/>
+<TestCase exeType="Executable" ref="UTL_OrderHistory_CC"/>
+<TestCase exeType="Executable" ref="UTL_Shipping_Payment_infoPage"/>
+<TestCase exeType="Executable" ref="UTL_Shipping_Payment_Page"/>
+</Scenario>
+</Folder>
+</Root>
