@@ -1,0 +1,234 @@
+{
+  "id" : "GSK Splash",
+  "name" : "GSK Splash",
+  "version" : "1.3",
+  "attributes" : [ ],
+  "tags" : [ ],
+  "_meta" : [ {
+    "type" : "attribute",
+    "name" : "scenario",
+    "desc" : "High level classification of test requirement/cases grouped together",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@smoke",
+    "desc" : "Non-exhaustive set of tests that aim at ensuring that the most important functions work",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@uat",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "tag",
+    "name" : "@load",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Tag",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "GSKD_Splash",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  }, {
+    "type" : "scenario",
+    "name" : "Backoffice",
+    "ref" : "com.cognizant.cognizantits.datalib.model.Attribute",
+    "attributes" : [ ],
+    "tags" : [ ]
+  } ],
+  "data" : [ {
+    "id" : "Backoffice#Allocation criteria creation",
+    "name" : "Allocation criteria creation",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "reusable"
+    }, {
+      "name" : "scenario",
+      "value" : "Backoffice"
+    } ]
+  }, {
+    "id" : "Backoffice#AllocationIDPlusImportAllocation",
+    "name" : "AllocationIDPlusImportAllocation",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "reusable"
+    }, {
+      "name" : "scenario",
+      "value" : "Backoffice"
+    } ]
+  }, {
+    "id" : "Backoffice#LoginBO",
+    "name" : "LoginBO",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "reusable"
+    }, {
+      "name" : "scenario",
+      "value" : "Backoffice"
+    } ]
+  }, {
+    "id" : "Backoffice#Logout_BO",
+    "name" : "Logout_BO",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "reusable"
+    }, {
+      "name" : "scenario",
+      "value" : "Backoffice"
+    } ]
+  }, {
+    "id" : "Backoffice#Multithreadoption",
+    "name" : "Multithreadoption",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "reusable"
+    }, {
+      "name" : "scenario",
+      "value" : "Backoffice"
+    } ]
+  }, {
+    "id" : "Backoffice#Solr Indexing",
+    "name" : "Solr Indexing",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "reusable"
+    }, {
+      "name" : "scenario",
+      "value" : "Backoffice"
+    } ]
+  }, {
+    "id" : "Backoffice#sync stage to online",
+    "name" : "sync stage to online",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "reusable"
+    }, {
+      "name" : "scenario",
+      "value" : "Backoffice"
+    } ]
+  }, {
+    "id" : "Backoffice#UTL_GSKD_Backoffice_ChangeProductAvailability",
+    "name" : "UTL_GSKD_Backoffice_ChangeProductAvailability",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "reusable"
+    }, {
+      "name" : "scenario",
+      "value" : "Backoffice"
+    } ]
+  }, {
+    "id" : "Backoffice#UTL_GSKD_Backoffice_Login",
+    "name" : "UTL_GSKD_Backoffice_SSO_Login",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "reusable"
+    }, {
+      "name" : "scenario",
+      "value" : "Backoffice"
+    } ]
+  }, {
+    "id" : "Backoffice#UTL_GSKD_Backoffice_Logout",
+    "name" : "UTL_GSKD_Backoffice_Logout",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "reusable"
+    }, {
+      "name" : "scenario",
+      "value" : "Backoffice"
+    } ]
+  }, {
+    "id" : "Backoffice#UTL_GSKD_Backoffice_SSO_Login",
+    "name" : "UTL_GSKD_Backoffice_Login",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "reusable"
+    }, {
+      "name" : "scenario",
+      "value" : "Backoffice"
+    } ]
+  }, {
+    "id" : "Backoffice#UTL_GSKD_Import Allocation",
+    "name" : "UTL_GSKD_Import Allocation",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "reusable"
+    }, {
+      "name" : "scenario",
+      "value" : "Backoffice"
+    } ]
+  }, {
+    "id" : "Backoffice#UTL_GSKD_Order upload for allocation",
+    "name" : "UTL_GSKD_Order upload for allocation",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "reusable"
+    }, {
+      "name" : "scenario",
+      "value" : "Backoffice"
+    } ]
+  }, {
+    "id" : "Backoffice#UTL_GSKD_Reservation Order",
+    "name" : "UTL_GSKD_Reservation Order",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "reusable"
+    }, {
+      "name" : "scenario",
+      "value" : "Backoffice"
+    } ]
+  }, {
+    "id" : "Backoffice#UTL_GSKD_SearchGskDeliverY",
+    "name" : "UTL_GSKD_SearchGskDeliverY",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "reusable"
+    }, {
+      "name" : "scenario",
+      "value" : "Backoffice"
+    } ]
+  }, {
+    "id" : "Backoffice#UTL_GSKD_Searchproduct",
+    "name" : "UTL_GSKD_Searchproduct",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "reusable"
+    }, {
+      "name" : "scenario",
+      "value" : "Backoffice"
+    } ]
+  }, {
+    "id" : "GSKD_Splash#UTL_GSKD_Login",
+    "name" : "UTL_GSKD_Login",
+    "tags" : [ ],
+    "attributes" : [ {
+      "name" : "type",
+      "value" : "reusable"
+    }, {
+      "name" : "scenario",
+      "value" : "GSKD_Splash"
+    } ]
+  } ]
+}
